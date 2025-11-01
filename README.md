@@ -1,6 +1,7 @@
 # kismet decompilation experiments
 
-fsd_cd2.json
+```
+cargo run --release -- fsd_cd2.json -o cfg
 
 -f _MENU_ServerList_C:SetSearchDistance // simple loop
 -f ModioModBrowserWidget_C:OnKeyDown // simple condition
@@ -20,4 +21,4 @@ fsd_cd2.json
 -f RandomChoicePerMission_C:Validate
 -f ITM_LoadoutIconSelector_C:FillGrid
 -f ITM_HazPlusItem_C:GetAmountFromManager
-
+```
