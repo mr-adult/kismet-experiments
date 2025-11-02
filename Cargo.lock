@@ -195,6 +195,7 @@ checksum = "4a5f13b858c8d314ee3e8f639011f7ccefe71f97f96e50151fb991f267928e2c"
 [[package]]
 name = "jmap"
 version = "0.1.0"
+source = "git+https://github.com/trumank/jmap#eca05dcf54eb3d92ea436e2e7c6d496d800e0dc6"
 dependencies = [
  "base64",
  "bitflags",
